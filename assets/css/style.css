@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation h1 {
+    font-size: 200%;
+    display: flex; 
+    
+}
+
+.navigation .navigationLinks li {
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitle {
+    background-image: url('../background.png');
+    min-height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    position: relative;
+}
+
+.subtitle h2 {
+    font-size: 150%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* Styling for Contact Me section */
+.contactMe h2 {
+    margin-bottom: 20px;
+}
+
+.contactMe .contactMethod li {
+    display: inline;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+    
+}
