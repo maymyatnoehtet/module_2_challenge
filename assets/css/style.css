@@ -2,26 +2,43 @@ body {
     overflow-x: hidden;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navigation h1 {
-    font-size: 200%;
-    display: flex; 
-    
-}
-
-.navigation .navigationLinks li {
-    display: inline;
-    margin-left: 20px;
-}
-
+/* 
+    For all the hyper links 
+    1. Normal state
+    2. Hover state
+    3. Focus state
+*/
 a {
     text-decoration: none;
 }
 
+/* Margins for all the sections */
+section {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+/* Styling for Navigation Bar section */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.navigation h1 {
+    font-size: 250%;
+}
+
+.navigation .navigationLinks li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Stylig for Subtitle section */
 .subtitle {
     background-image: url('../background.png');
     min-height: 30vh;
@@ -39,15 +56,38 @@ a {
     margin-right: 20px;
 }
 
+/* Styling for About Me section */
+.aboutMe h2 {
+    /* display: inline; */
+    font-size: 150%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutMe p {
+    /* display: inline; */
+    text-align: justify;
+}
+
 /* Styling for Contact Me section */
 .contactMe h2 {
+    font-size: 150%;
+    margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.contactMethod {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contactMe .contactMethod li {
     display: inline;
-    margin-left: 30px;
     margin-bottom: 30px;
-    
-    
+}
+
+/* Styling Footer */
+footer p {
+    font-size: 10px;
+    text-align: center;
 }
