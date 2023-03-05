@@ -7,12 +7,6 @@ body {
     background-color: rgba(113, 196, 241, 0.617);
 }
 
-/* 
-    For all the hyper links 
-    1. Normal state
-    2. Hover state
-    3. Focus state
-*/
 a {
     text-decoration: none;
 }
@@ -27,7 +21,6 @@ section {
     margin-left: 25px;
     margin-right: 25px;
 }
-
 
 /* Styling for Navigation Bar section */
 .navigation {
@@ -67,6 +60,12 @@ section {
     margin-right: 20px;
 }
 
+/* Styling for Profile Image section */
+.profileImage img {
+    border-radius: 50%;
+    height: 15em;
+}
+
 /* Styling for Section Titles */
 #sectionTitle {
     font-size: 150%;
@@ -89,7 +88,7 @@ section {
     justify-content: space-around;
 }
 
-.projects_blocks img{
+.projects_blocks img {
     width: 400px;
     height: 400px;
 }
@@ -115,8 +114,14 @@ section {
     margin-bottom: 30px;
 }
 
+/* Styling for Resume section */
+.resume {
+    margin-bottom: 50px;
+}
+
 /* Styling Footer */
 footer p {
     font-size: 10px;
     text-align: center;
+    color: darkblue;
 }

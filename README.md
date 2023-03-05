@@ -1,5 +1,13 @@
 # 02 Advanced CSS: Portfolio
 
+## References
+
+* Week 02: Day 02: 11-Ins_CSS-Resets
+* Tutor: Samuel Cordova
+* https://www.w3schools.com/csS/css3_flexbox.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+
+
 ## Your Task
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
