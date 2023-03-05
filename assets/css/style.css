@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -56,28 +60,24 @@ section {
     margin-right: 20px;
 }
 
-/* Styling for About Me section */
-.aboutMe h2 {
-    /* display: inline; */
+/* Styling for Section Titles */
+#sectionTitle {
     font-size: 150%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+/* Styling for About Me section */
 .aboutMe p {
-    /* display: inline; */
     text-align: justify;
 }
 
-/* Styling for Contact Me section */
-.contactMe h2 {
-    font-size: 150%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+/* Styling for Projects section */
 
+/* Styling for Contact Me section */
 .contactMethod {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
