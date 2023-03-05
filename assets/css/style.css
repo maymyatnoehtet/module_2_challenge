@@ -4,6 +4,7 @@ html {
 
 body {
     overflow-x: hidden;
+    background-color: rgba(113, 196, 241, 0.617);
 }
 
 /* 
@@ -14,6 +15,11 @@ body {
 */
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: brown;
 }
 
 /* Margins for all the sections */
@@ -35,6 +41,7 @@ section {
 
 .navigation h1 {
     font-size: 250%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navigation .navigationLinks li {
@@ -70,9 +77,31 @@ section {
 /* Styling for About Me section */
 .aboutMe p {
     text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
 }
 
 /* Styling for Projects section */
+.projects_blocks{
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: space-around;
+}
+
+.projects_blocks img{
+    width: 400px;
+    height: 400px;
+}
+
+.projects_blocks #project1 img {
+    width: 500px;
+    height: 500px;
+}
+
+.projects_blocks p {
+    text-align: center;
+}
 
 /* Styling for Contact Me section */
 .contactMethod {
