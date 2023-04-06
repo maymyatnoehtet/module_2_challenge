@@ -25,16 +25,28 @@ section {
 /* Styling for Navigation Bar section */
 .navigation {
     display: flex;
+    /* position: fixed; */
+    top: 0;
+    position: sticky;
+    background-color: rgba(30, 150, 215, 0.772);
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
     margin-left: 25px;
-    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px; */
 }
 
 .navigation h1 {
     font-size: 250%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigation .navigationLinks {
+    padding-top: 35px;
 }
 
 .navigation .navigationLinks li {
@@ -42,8 +54,17 @@ section {
     margin-right: 10px;
 }
 
+.navigation .navigationLinks li a{
+    color: black; 
+}
+
+.navigation .navigationLinks li a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
 /* Stylig for Subtitle section */
-.subtitle {
+/* .subtitle {
     background-image: url('../background.png');
     min-height: 30vh;
     display: flex;
@@ -58,11 +79,11 @@ section {
     bottom: 0;
     margin-bottom: 20px;
     margin-right: 20px;
-}
+} */
 
 /* Styling for Profile Image section */
 .profileImage img {
-    border-radius: 50%;
+    border-radius: 20%;
     height: 15em;
 }
 
@@ -85,17 +106,12 @@ section {
     display: flex;
     flex-wrap: wrap;
     direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .projects_blocks img {
     width: 400px;
     height: 400px;
-}
-
-.projects_blocks #project1 img {
-    width: 500px;
-    height: 500px;
 }
 
 .projects_blocks p {
